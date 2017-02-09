@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #CFE2F3;
+}
+
+.blog, .post-form {
+  padding: 32px 48px;
+}
+
+.post {
+  position: relative;
+}
+
+.post-title {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.post-body {
+  text-indent: 12px;
+}
+
+.btn {
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 4px;
+  min-width: 120px;
+  background-color: burlywood;
+}
+
+.btn + .btn {
+  margin-left: 8px;
+}
+
+.blog .btn:last-of-type {
+  position: absolute;
+  right: 0;
+}
+
+.btn-blue {
+  background-color: #9FC5E8;
+}
+
+.btn-green {
+  background-color: #D9EAD3;
+}
+
+.btn-red {
+  background-color: #F4CCCC;
+}
+
+.post-form {
+  box-sizing: border-box;
+}
+
+.post-form > input,
+.post-form > textarea {
+  position: relative;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.post-form > textarea {
+  min-height: 100px;
+}
+
+.post-form .btn {
+  float: right;
+  margin-top: 20px;
+  margin-left: 8px;
+}
